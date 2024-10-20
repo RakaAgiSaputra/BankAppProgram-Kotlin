@@ -56,5 +56,16 @@ class BankAccount(
 }
 ```
 
+`BankMain.kt`:
+```kotlin
+package com.example.bankprogramapp
 
-kjl;jk
+fun main() {
+    val dennisUser = BankAccount("Denis Panjagal", 50_000.0)
+    dennisUser.deposit(10_000.0)
+    dennisUser.deposit(10_000.0)
+    dennisUser.withdraw(5_000.0)
+    dennisUser.displayTransactionHistory()
+}
+```
+
