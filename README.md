@@ -69,3 +69,38 @@ fun main() {
 }
 ```
 
+
+- **Properties:**
+  - `accountHolder`: Nama pemegang akun.
+  - `balance`: Saldo akun.
+  - `transactionHistory`: Riwayat transaksi (bersifat privat).
+- **Fitur:**
+  - `Deposit`: Menambah saldo ke akun.
+  - `Withdraw`: Mengurangi saldo dengan jumlah yang ditentukan, dengan pemeriksaan apakah saldo mencukupi.
+  - `Riwayat Transaksi`: Menyimpan dan menampilkan riwayat transaksi.
+- **Teknologi**
+Proyek ini dibangun menggunakan:
+  - `Kotlin`
+- **Persyaratan**
+  - `Android Studio atau IDE yang mendukung Kotlin.`
+  - `Java Development Kit (JDK).`
+**Instalasi**
+Clone repositori ini:
+```bash
+git clone https://github.com/RakaAgiSaputra/BankAppProgram-Kotlin.git
+```
+- Buka proyek di Android Studio atau IDE yang mendukung Kotlin.
+- Jalankan aplikasi melalui BankMain.kt.
+- Lisensi
+- Proyek ini dilisensikan di bawah lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
+
+**Kontribusi**
+Terbuka untuk kontribusi! Ikuti langkah-langkah berikut jika ingin berkontribusi:
+- `Fork` repositori ini.
+- Buat branch fitur Anda `(git checkout -b fitur-anda).`
+- Commit perubahan Anda `(git commit -m 'Tambah fitur').`
+- `Push` ke `branch` `(git push origin fitur-anda).`
+- Buat `Pull Request`.
+## Kontak
+Raka Agi Saputra
+LinkedIn
