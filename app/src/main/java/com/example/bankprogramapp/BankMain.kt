@@ -5,8 +5,5 @@ fun main(){
     dennisUser.deposit(10.000)
     dennisUser.deposit(10.000)
     dennisUser.withdraw(5.000)
-
     dennisUser.displayTransactionHistory();
-
-//    println("Hel  Wold ")
 }
