@@ -61,46 +61,40 @@ class BankAccount(
 package com.example.bankprogramapp
 
 fun main() {
-    val dennisUser = BankAccount("Denis Panjagal", 50_000.0)
-    dennisUser.deposit(10_000.0)
-    dennisUser.deposit(10_000.0)
-    dennisUser.withdraw(5_000.0)
+    val dennisUser = BankAccount("Denis Panjagal", 50000.0)
+    dennisUser.deposit(10000.0)
+    dennisUser.deposit(10000.0)
+    dennisUser.withdraw(5000.0)
     dennisUser.displayTransactionHistory()
 }
 ```
 
+## Proyek ini dibangun menggunakan:
+  - **`Kotlin`**
+## Persyaratan
+  - **`Android Studio atau IDE yang mendukung Kotlin.`**
+  - **`Java Development Kit (JDK).`**
+  
+## Instalasi
+- **Clone repositori ini:**
+  ```bash
+  git clone https://github.com/RakaAgiSaputra/BankAppProgram-Kotlin.git
+  ```
+- Buka proyek di `Android Studio` atau `IDE` yang mendukung `Kotlin`.
+- Jalankan aplikasi melalui `BankMain.kt`.
+- `Lisensi`
+- Proyek ini dilisensikan di bawah `lisensi MIT`. Lihat file `LICENSE` untuk informasi lebih lanjut.
 
-- **Properties:**
-  - `accountHolder`: Nama pemegang akun.
-  - `balance`: Saldo akun.
-  - `transactionHistory`: Riwayat transaksi (bersifat privat).
-- **Fitur:**
-  - `Deposit`: Menambah saldo ke akun.
-  - `Withdraw`: Mengurangi saldo dengan jumlah yang ditentukan, dengan pemeriksaan apakah saldo mencukupi.
-  - `Riwayat Transaksi`: Menyimpan dan menampilkan riwayat transaksi.
-- **Teknologi**
-Proyek ini dibangun menggunakan:
-  - `Kotlin`
-- **Persyaratan**
-  - `Android Studio atau IDE yang mendukung Kotlin.`
-  - `Java Development Kit (JDK).`
-**Instalasi**
-Clone repositori ini:
-```bash
-git clone https://github.com/RakaAgiSaputra/BankAppProgram-Kotlin.git
-```
-- Buka proyek di Android Studio atau IDE yang mendukung Kotlin.
-- Jalankan aplikasi melalui BankMain.kt.
-- Lisensi
-- Proyek ini dilisensikan di bawah lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
-
-**Kontribusi**
+## Kontribusi
 Terbuka untuk kontribusi! Ikuti langkah-langkah berikut jika ingin berkontribusi:
 - `Fork` repositori ini.
 - Buat branch fitur Anda `(git checkout -b fitur-anda).`
 - Commit perubahan Anda `(git commit -m 'Tambah fitur').`
 - `Push` ke `branch` `(git push origin fitur-anda).`
 - Buat `Pull Request`.
+  
 ## Kontak
-Raka Agi Saputra
-LinkedIn
+Lets connect each other
+- [LinkedIn](https://id.linkedin.com/in/raka-agi-saputra)
+- [Instagram](https://www.instagram.com/rakasa_22)
+- [Kunjungi repositori Bank App Program](https://github.com/RakaAgiSaputra/BankAppProgram-Kotlin)
